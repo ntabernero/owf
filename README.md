@@ -1,4 +1,4 @@
-# Ozone Widget Framework 
+# Ozone Widget Framework [![Build Status](https://travis-ci.org/ntabernero/owf.png)](https://travis-ci.org/ntabernero/owf)
  
 ## Description
 
