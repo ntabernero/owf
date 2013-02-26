@@ -12,7 +12,9 @@ before_install:
   - wget http://mirrors.ibiblio.org/pub/mirrors/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
   - mkdir -p ~/.ant/lib
   - cp ant-contrib-1.0b3.jar ~/.ant/lib
-install: /bin/true
-before_script:
   - ant init-build
+install: /bin/true
 script: ant bundle
+branches:
+  only:
+    - master
